@@ -4,11 +4,16 @@ import Typical from 'react-typical';
 import { FaGithubSquare } from 'react-icons/fa';
 import { AiOutlineMedium, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import Resume from '../../images/CV/resume.pdf';
+import Animation from './Animation';
 
 
 
 const Intro = () => {
     return (
+      <>
+      <div className="animation">
+          <Animation />
+        </div>
       <div className="container intro">
         <div id="intro-section" className="col-md-12">
           <p className="text-success hello">Hello! I am</p>
@@ -79,6 +84,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
+      </>
     );
 };
 

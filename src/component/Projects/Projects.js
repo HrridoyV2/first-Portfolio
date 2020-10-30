@@ -1,10 +1,8 @@
 import React from 'react';
 import './Projects.css';
-import creative from '../../images/projectImage/creative.png';
-import travel from '../../images/projectImage/Voluanter.png';
-import volunteer from '../../images/projectImage/travel.png';
-import hotGadgets from '../../images/projectImage/hotGadgets.JPG';
-import pandaCommerce from '../../images/projectImage/pandaCommerce.JPG';
+import creative from '../../images/projectImage/Creative-Agency.PNG';
+import doctors from '../../images/projectImage/Doctor-Portal.PNG';
+import emajohn from '../../images/projectImage/Ema-John.PNG';
 import Project from './Project';
 
 const Projects = () => {
@@ -12,7 +10,7 @@ const Projects = () => {
     const allProjects = [
       {
         id: "01",
-        img: "" + creative,
+        img: "" + emajohn,
         title: "Ema-john",
         description: "A Mern Stack e-commerce Website.",
         gitHub: "https://github.com/HrridoyV2/Ema-John-client",
@@ -21,7 +19,7 @@ const Projects = () => {
 
       {
         id: "02",
-        img: "" + volunteer,
+        img: "" + doctors,
         title: "Doctors Portal",
         description: "A Mern Stack Health Service Website.",
         gitHub: "https://github.com/HrridoyV2/doctor-portal-client",
@@ -30,7 +28,7 @@ const Projects = () => {
 
       {
         id: "03",
-        img: "" + travel,
+        img: "" + creative,
         title: "Creative Agency",
         description: "A Mern Stack Service Provider Website.",
         gitHub: "https://github.com/HrridoyV2/Creative-Agency-client",

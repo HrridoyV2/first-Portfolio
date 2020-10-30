@@ -58,7 +58,7 @@ const Header = () => {
             </ul>
 
             <a
-              href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fuc%3Fexport%3Ddownload%26amp%253Bid%3D1XbaoImYrWTc0DJar3Z6LN8ql2znr95ev%26fbclid%3DIwAR28U8zykhIQ6Gcd2KX2CWmZe0yTf4LHHbb9M1E-W-rWFog_fdmISiU61js&h=AT1VVg2vjMWBbfFwMlkkBjPVdeWkydCmJ0bXY5KSbIlJAR3UIPM34TfnvXeTPF3zSk5ZvI6Rv_V2RIXfG0QHGw04j8pR7NCQmP7F_8RzQPucfFWjstDBeXwyJhRDHSBiuME1&__tn__=R"
+              href={CV}
               download="Al Rabbi CV"
             >
               <button className="btn btn-outline-success my-2 my-sm-0">

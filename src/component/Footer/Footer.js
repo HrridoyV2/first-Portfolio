@@ -5,18 +5,10 @@ import { GoRepoForked } from 'react-icons/go';
 const Footer = () => {
     return (
         <div className='foooter'>
-            <div className="container skill">
-                <div className="row copy">
-                    <div className="col-12 col-sm-12 col-md-12 d-flex justify-content-center align-items-center justify-content-between">
+            <div className="container skill text-center">
                         <small>Copyright &copy; 2020 Hridoy</small>
-                        <div className="d-flex align-items-center dev">
-                            <a href="https://github.com/hrridoyv2" target="_blank" rel="noopener noreferrer" ><GoRepoForked /></a>
-                            <h4> <span className="heart">&hearts;</span> Developed BY ME</h4>
-                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
     );
 };
 export default Footer;
