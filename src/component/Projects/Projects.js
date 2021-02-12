@@ -5,6 +5,7 @@ import doctors from '../../images/projectImage/Doctor-Portal.PNG';
 import emajohn from '../../images/projectImage/Ema-John.PNG';
 import apartment from '../../images/projectImage/Apartment-Hunt.PNG';
 import drive from '../../images/projectImage/V2-Drive.PNG';
+import tesla from '../../images/projectImage/Tesla-clone.jpg';
 import Project from './Project';
 
 const Projects = () => {
@@ -50,6 +51,14 @@ const Projects = () => {
         description: "A Mern Stack Service Provider Website.",
         gitHub: "https://github.com/HrridoyV2/Creative-Agency-client",
         liveLink: "https://assignment-11-ac534.web.app",
+      },
+      {
+        id: "06",
+        img: "" + tesla,
+        title: "Tesla Clone",
+        description: "React-Native app",
+        gitHub: "https://github.com/HrridoyV2/teslaClone-react-native",
+        liveLink: "https://expo.io/@hrridoyv2/projects/teslaClone",
       },
     ];
 
