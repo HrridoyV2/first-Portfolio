@@ -34,7 +34,7 @@ const Contact = () => {
           data-aos="flip-left"
           className="row d-flex justify-content-center "
         >
-          {success ? (
+          {/* {success ? ( */}
             <div className="col-12 col-sm-12 col-md-6">
               <form
                 action="https://formspree.io/f/mrgokqzj"
@@ -95,7 +95,7 @@ const Contact = () => {
                 <h2 className="d-flex justify-content-center align-items-center">
                   <IoMdCloudDone></IoMdCloudDone>
                 </h2>
-                <h1 className="d-flex justify-content-center align-items-center">
+                {/* <h1 className="d-flex justify-content-center align-items-center">
                   Message Received!
                 </h1>
                 <h1 className="d-flex justify-content-center align-items-center">
@@ -106,7 +106,7 @@ const Contact = () => {
                   className="btn btn-success my-2 my-sm-0 btn-margin"
                 >
                   Return
-                </button>
+                </button> */}
               </div>
             </div>
           )}

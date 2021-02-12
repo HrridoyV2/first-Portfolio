@@ -10,7 +10,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg sticky-top">
         <div className="container">
           <a className="navbar-brand" href="/">
-            <img src={logo} alt="S M AL RABBI" />
+            <img src={logo} alt="Hrridoy" />
           </a>
           <button
             className="navbar-toggler"
@@ -23,7 +23,7 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div id="navbarTogglerDemo02" className="collapse navbar-collapse">
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
               <li className="nav-item">
                 <a className="nav-link" href="#about-section">
@@ -48,7 +48,7 @@ const Header = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="#"
+                  href="https://hrridoyv2.medium.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -57,10 +57,7 @@ const Header = () => {
               </li>
             </ul>
 
-            <a
-              href={CV}
-              download="Al Rabbi CV"
-            >
+            <a href={CV} download="Resume of Hridoy">
               <button className="btn btn-outline-success my-2 my-sm-0">
                 Get Resume
               </button>

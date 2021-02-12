@@ -1,19 +1,17 @@
-import React from 'react';
-import './Intro.css';
-import Typical from 'react-typical';
-import { FaGithubSquare } from 'react-icons/fa';
-import { AiOutlineMedium, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
-import Resume from '../../images/CV/resume.pdf';
-import Animation from './Animation';
-
-
+import React from "react";
+import "./Intro.css";
+import Typical from "react-typical";
+import { FaGithubSquare } from "react-icons/fa";
+import { AiOutlineMedium, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import Resume from "../../images/CV/resume.pdf";
+import Animation from "./Animation";
 
 const Intro = () => {
-    return (
-      <>
+  return (
+    <>
       <div className="animation">
-          <Animation />
-        </div>
+        <Animation />
+      </div>
       <div className="container intro">
         <div id="intro-section" className="col-md-12">
           <p className="text-success hello">Hello! I am</p>
@@ -24,7 +22,7 @@ const Intro = () => {
               steps={[
                 " Web Developer",
                 3000,
-                " Designer",
+                " Traveler",
                 3000,
                 " Programmer",
                 3000,
@@ -35,7 +33,7 @@ const Intro = () => {
               wrapper="b"
             />
           </h3>
-          <a href={Resume} download="Al Rabbi CV">
+          <a href={Resume} download="Resume of Hridoy">
             <button className="btn btn-success my-2 my-sm-0 btn-style">
               Get Resume
             </button>
@@ -75,7 +73,7 @@ const Intro = () => {
             </a>
             <a
               className="icon2"
-              href="https://medium.com/"
+              href="https://hrridoyv2.medium.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -84,8 +82,8 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      </>
-    );
+    </>
+  );
 };
 
 export default Intro;
