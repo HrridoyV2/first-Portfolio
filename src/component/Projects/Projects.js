@@ -1,12 +1,13 @@
 import React from 'react';
-import './Projects.css';
+import apartment from '../../images/projectImage/Apartment-Hunt.PNG';
 import creative from '../../images/projectImage/Creative-Agency.PNG';
 import doctors from '../../images/projectImage/Doctor-Portal.PNG';
 import emajohn from '../../images/projectImage/Ema-John.PNG';
-import apartment from '../../images/projectImage/Apartment-Hunt.PNG';
-import drive from '../../images/projectImage/V2-Drive.PNG';
+import foodDelivery from '../../images/projectImage/Food-Delivery.jpg';
 import tesla from '../../images/projectImage/Tesla-clone.jpg';
+import drive from '../../images/projectImage/V2-Drive.PNG';
 import Project from './Project';
+import './Projects.css';
 
 const Projects = () => {
 
@@ -59,6 +60,14 @@ const Projects = () => {
         description: "React-Native app",
         gitHub: "https://github.com/HrridoyV2/teslaClone-react-native",
         liveLink: "https://expo.io/@hrridoyv2/projects/teslaClone",
+      },
+      {
+        id: "07",
+        img: "" + foodDelivery,
+        title: "Food-Delivery",
+        description: "React-Native app",
+        gitHub: "https://github.com/HrridoyV2/food-delivery-native",
+        liveLink: "https://expo.io/@hrridoyv2/projects/food-delivery",
       },
     ];
 
