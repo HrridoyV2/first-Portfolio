@@ -2,7 +2,7 @@ import React from "react";
 import "./Intro.css";
 import Typical from "react-typical";
 import { FaGithubSquare } from "react-icons/fa";
-import { AiOutlineMedium, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { AiOutlineMedium, AiFillLinkedin } from "react-icons/ai";
 import Resume from "../../images/CV/resume.pdf";
 import Animation from "./Animation";
 

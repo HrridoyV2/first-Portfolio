@@ -29,7 +29,7 @@ const About = () => {
               learn many technical skills. My core skill is based on javascript.
               I am available for any opportunity.
             </p>
-            <a href={Resume} download="Resume of Hridoy" target="_blank">
+            <a href={Resume} download="Resume of Hridoy" target="_blank" rel="noreferrer">
               <button className="btn btn-success my-2 my-sm-0 btn-style">
                 Get Resume
               </button>

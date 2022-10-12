@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './Contact.css';
 import { useForm } from "react-hook-form";
 import Aos from "aos";
@@ -13,15 +13,7 @@ const Contact = () => {
         Aos.init({ duration: 2000 });
     }, [])
 
-    const [success, setSuccess] = useState(true);
-
-
-    const { register, handleSubmit, watch, errors } = useForm();
-
-
-    const handleReturn=()=>{
-        setSuccess(true)
-    }
+    const { register, errors } = useForm();
 
     return (
       <div id="contact-section" className="container skill">

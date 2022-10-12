@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { GoRepoForked } from 'react-icons/go';
 
 const Footer = () => {
     return (

@@ -1,12 +1,5 @@
 import React from 'react'
 import Particles from 'react-particles-js';
-import react from '../../images/Animation/react.png';
-import aws from "../../images/Animation/aws.png";
-import redux from "../../images/Animation/redux.png";
-import js from "../../images/Animation/js.png";
-import vscode from "../../images/Animation/vscode.png";
-import mongo from "../../images/Animation/MongoDB.jpg";
-import node from "../../images/Animation/node.png";
 function Animation() {
     return (
       <>

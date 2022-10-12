@@ -23,10 +23,10 @@ const Project = (props) => {
               <p className="card-text">{description}</p>
             </div>
             <div className="card-footer">
-              <a href={gitHub} target="_blank">
+              <a href={gitHub} target="_blank" rel="noreferrer">
                 <FaGithubSquare />
               </a>
-              <a href={liveLink} target="_blank">
+              <a href={liveLink} target="_blank" rel="noreferrer">
                 <FiExternalLink />
               </a>
             </div>
